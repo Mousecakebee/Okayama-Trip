@@ -126,7 +126,7 @@
     <header class="bg-gradient-to-r from-amber-100 via-pink-100 to-rose-100 border-b-4 border-dashed border-pink-300 sticky top-0 z-40 shadow-md backdrop-blur-md">
         <div class="max-w-5xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center gap-3">
             <div class="flex items-center gap-3">
-                <img src="images/pig.jpg" alt="豬大鼻" class="w-10 h-10 bounce-cute object-contain" />
+                <img src="images/pig.png" alt="豬大鼻" class="w-10 h-10 bounce-cute object-contain mix-blend-multiply" />
                 <div>
                     <h1 class="text-2xl md:text-3xl font-black text-rose-800 font-cute tracking-wider flex items-center gap-2">
                         <span>豬大鼻 & 鼠小鼻</span>
@@ -134,7 +134,7 @@
                     </h1>
                     <p class="text-xs md:text-sm font-bold text-rose-600 tracking-wide">⛩️ 2027 山陽山陰 10 天跨年冒險手帳 🍡 ♨️</p>
                 </div>
-                <img src="images/mouse.jpg" alt="鼠小鼻" class="w-10 h-10 bounce-cute object-contain" style="animation-delay: 0.3s;" />
+                <img src="images/mouse.png" alt="鼠小鼻" class="w-10 h-10 bounce-cute object-contain mix-blend-multiply" style="animation-delay: 0.3s;" />
             </div>
             
             <!-- 右側資訊區：倒數計時 & Pass 標籤 -->
@@ -194,9 +194,9 @@
                 </div>
             </div>
             <button onclick="openModal('pass-modal')" class="bg-gradient-to-r from-pink-400 to-rose-400 hover:from-pink-500 hover:to-rose-500 text-white font-black px-5 py-3 rounded-2xl transition shadow-lg hover:shadow-pink-200 flex items-center gap-2 text-sm whitespace-nowrap border-2 border-white">
-                <img src="images/mouse.jpg" alt="鼠小鼻" class="w-5 h-5 object-contain" />
+                <img src="images/mouse.png" alt="鼠小鼻" class="w-5 h-5 object-contain mix-blend-multiply" />
                 <span>查看 Pass 車資健檢</span>
-                <img src="images/pig.jpg" alt="豬大鼻" class="w-5 h-5 object-contain" />
+                <img src="images/pig.png" alt="豬大鼻" class="w-5 h-5 object-contain mix-blend-multiply" />
             </button>
         </section>
 
@@ -224,9 +224,9 @@
     <!-- 可愛頁尾 -->
     <footer class="bg-white/80 border-t-2 border-dashed border-pink-200 py-6 text-center text-xs md:text-sm text-gray-500 mt-12 backdrop-blur-sm">
         <p class="flex items-center justify-center gap-2 font-bold text-rose-800">
-            <img src="images/pig.jpg" alt="豬" class="w-5 h-5 object-contain" />
+            <img src="images/pig.png" alt="豬" class="w-5 h-5 object-contain mix-blend-multiply" />
             <span>祝豬大鼻與鼠小鼻 2027 新年快樂！旅途平安甜蜜滿載！</span>
-            <img src="images/mouse.jpg" alt="鼠" class="w-5 h-5 object-contain" />
+            <img src="images/mouse.png" alt="鼠" class="w-5 h-5 object-contain mix-blend-multiply" />
         </p>
     </footer>
 
@@ -935,7 +935,7 @@
                             </div>
                         </div>
                         <button onclick="openModal('url-modal')" class="bg-white hover:bg-amber-100 text-amber-900 border-2 border-amber-300 text-xs font-bold px-3.5 py-2 rounded-xl transition flex items-center gap-1.5 shadow-sm">
-                            <img src="images/mouse.jpg" alt="鼠" class="w-4 h-4 object-contain" />
+                            <img src="images/mouse.png" alt="鼠" class="w-4 h-4 object-contain mix-blend-multiply" />
                             <span>查看住宿 3 大亮點</span>
                         </button>
                     </div>
@@ -981,7 +981,7 @@
                                                 <span>⏰</span> <span>${item.time}</span>
                                             </span>
                                             <h3 class="font-black text-base md:text-lg text-rose-900 flex items-center gap-1.5 font-cute">
-                                                <img src="${idx % 2 === 0 ? 'images/pig.jpg' : 'images/mouse.jpg'}" alt="icon" class="w-6 h-6 object-contain" />
+                                                <img src="${idx % 2 === 0 ? 'images/pig.png' : 'images/mouse.png'}" alt="icon" class="w-6 h-6 object-contain mix-blend-multiply" />
                                                 <span>${item.name}</span>
                                             </h3>
                                         </div>
@@ -1078,7 +1078,7 @@
                     <div class="space-y-3 mb-6">
                         ${urlHighlights.highlights.map(h => `
                             <div class="bg-pink-50 border-2 border-pink-200 rounded-2xl p-3 text-xs md:text-sm font-bold text-rose-900 flex items-center gap-2">
-                                <img src="images/mouse.jpg" alt="鼠" class="w-4 h-4 object-contain" />
+                                <img src="images/mouse.png" alt="鼠" class="w-4 h-4 object-contain mix-blend-multiply" />
                                 <span>${h}</span>
                             </div>
                         `).join('')}
